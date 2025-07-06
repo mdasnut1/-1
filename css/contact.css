@@ -1,0 +1,61 @@
+.contact__info {
+    margin-bottom: 39px;
+}
+
+.contact__item {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: left center;
+    max-width: 370px;
+    padding-left: 65px;
+}
+
+.contact__item:first-child {
+    margin-bottom: 38px;
+}
+
+.contact__item_type_street {
+    background-image: url("../img/location.svg");
+}
+
+.contact__item_type_tel  {
+    background-image: url("../img/phone-call.svg");
+    margin-bottom: 11px;
+}
+
+.contact__item_type_email {
+    background-image: url("../img/mail.svg");
+}
+
+.contact__item:last-child {
+    margin: 0;
+}
+
+
+
+
+.social__list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.social__item {
+    display: inline-block;
+    margin-right: 26px ;
+}
+
+
+.social__item:last-child{
+    margin: 0;
+}
+
+
+.social__link {
+    display: inline-block;
+}

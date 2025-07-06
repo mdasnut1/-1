@@ -1,0 +1,100 @@
+
+
+.about-section-img {
+    background-size: cover;
+    width: 600px;
+    padding-right: 16px;
+}
+
+.about__paragraph {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+    margin-top: 0;
+}
+
+.about__paragraph:last-child{
+    margin: 0;
+}
+
+.about__game-over::after {
+    content: " “";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #6c0287;
+}
+
+.about__quote {
+    float: right;
+}
+
+
+.about__game-over::before {
+    position: absolute;
+    top: -8px;
+    left: 9px;
+    float: left;
+    content: "”";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #6c0287;
+}
+
+.about__game-over {
+    max-width: 469px;
+    padding-left: 55px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: pre-line;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.about-us{
+    float: right;
+}
+
+.about__text {
+    max-width: 500px;
+    margin-bottom: 48px;
+}
+
+.about__paragraph {
+    margin-bottom: 20px;
+}
+
+.about__author {
+    float: right;
+}
+
+.about__author-photo{
+    margin-right: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.about__author-photo , .about__author-biography{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about__author-biography {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+    max-width: 260px;
+    text-transform: none;
+}
