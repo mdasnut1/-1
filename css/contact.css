@@ -1,3 +1,9 @@
+.contact {
+    background-image: url('/img/fon-contacts.jpg');
+    background-size: contain;
+    overflow: hidden;
+}
+
 .contact__info {
     margin-bottom: 39px;
 }
@@ -34,7 +40,9 @@
     margin: 0;
 }
 
-
+.social {
+    margin-bottom: 176px;
+}
 
 
 .social__list {
@@ -58,4 +66,23 @@
 
 .social__link {
     display: inline-block;
+}
+
+.contact__map {
+    float: right;
+}
+
+.contact__author {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author__social_networks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.author__by {
+    margin-bottom: 6px;
 }

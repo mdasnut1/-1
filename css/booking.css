@@ -1,0 +1,189 @@
+.booking {
+background: #440f51;;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+.fieldset__halls {
+    margin-bottom: 60px;
+}
+
+.legend__booking {
+font-weight: 700;
+font-size: 24px;
+line-height: 117%;
+color: #fff;
+margin-bottom: 23px;
+}
+
+.legend__booking--center {
+text-align: center;
+margin: 0 0 38px 0;
+}
+
+.booking__button_room {
+margin-right: 55px;
+border-radius: 8px;
+width: 250px;
+min-height: 55px;
+background: #fff;
+font-weight: 700;
+font-size: 30px;
+line-height: 133%;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+}
+
+.booking__button_room:last-child  {
+    margin: 0;
+}
+
+.booking-container {
+    max-width: 1040px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.booking__block {
+    display: flex;
+    margin-right: 100px;
+    width: 280px;
+}
+
+.booking__block:last-child {
+    margin: 0;
+}
+
+.booking__list { 
+    display: flex;  
+    flex-direction: column;
+}
+
+.booking__item {
+font-weight: 400;
+font-size: 22px;
+color: #fff;
+padding-left: 39px;
+}
+
+.booking__label {
+    margin-bottom: 20px;
+}
+
+.booking__label:last-child{
+    margin: 0;
+}
+
+.fieldset__block {
+    position: relative;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.input_item_radio {
+    position: absolute;
+    min-height: 27px;
+    width: 27px;
+}
+
+.input_item_checkbox {
+    width: 25px;
+    min-height: 25px;
+    position: absolute;
+}
+
+
+.booking__block_time-date {
+    max-width: 300px;
+    margin-right: 50px;
+    padding-top: 22px;
+}
+
+.booking__content_time-date {
+    display: flex;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+}
+
+
+.input__booking-data-time {
+    padding:  12px 20px  12px 20px;
+    width: 134px;
+    margin: 0;
+    margin-right: 32px;
+    font-size: 18px;
+}
+
+.input__booking-data-time:last-child {
+    margin: 0;
+}
+
+.input__booking {
+    padding:  12px 20px  12px 20px;
+    width: 100%;
+    font-size: 21px;
+}
+
+.booking__block_name {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 280px;
+    margin-right: 50px;
+}
+
+.input__booking_name {
+    padding:  12px 20px  12px 20px;
+    width: 100%;
+    margin-bottom: 14px;
+    font-size: 21px;
+}
+
+.input__booking_name:last-child {
+    margin: 0;
+}
+
+.booking__room {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.booking__block_mail-tel {
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+}
+
+.input__booking_mail-tel {
+    padding:  12px 20px  12px 20px;
+    width: 100%;
+    margin-bottom: 14px;
+    font-size: 21px;
+}
+
+.input__booking_mail-tel:last-child {
+    margin: 0;
+}
+
+.booking__label_name {
+font-weight: 700;
+font-size: 14px;
+line-height: 114%;
+color: #fff;
+}
+
+.booking__button {
+font-weight: 700;
+font-size: 22px;
+line-height: 127%;
+text-transform: uppercase;
+color: #6c0287;
+background-color: #fff;
+border-radius: 10px;
+padding: 16px 50px;
+float: right;
+}
+

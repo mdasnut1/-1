@@ -1,0 +1,63 @@
+
+
+
+.rest__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rest__item {
+    display: flex;
+}
+
+.text__item {
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+color: #fff;
+max-width: 300px;
+}
+
+
+.rest__item_vr { 
+    background-image: url('/img/vr.jpg');
+    width: 380px;
+    height: 228px;
+    background-repeat: no-repeat;
+}
+
+.rest__item_audi-sistem {
+    background-image: url('/img/audi-sistem.jpg');
+    width: 100%;
+    height: 228px;
+    background-repeat: no-repeat;
+}
+
+.rest__item_karaoke{
+    background-image: url('/img/karaoke.jpg');
+    width: 100%;
+    height: 228px;
+    background-repeat: no-repeat;
+}
+
+.rest__item_board-game {
+    background-image: url('/img/board-games.jpg');
+    width: 100%;
+    height: 228px;
+    background-repeat: no-repeat;
+}
+
+.rest__item_film {
+    background-image: url('/img/film.jpg');
+    width: 100%;
+    height: 228px;
+    background-repeat: no-repeat;
+}
+
+.rest__item_palystation{
+    background-image: url('/img/palystation.jpg');
+    width: 100%;
+    height: 228px;
+    background-repeat: no-repeat;
+}
+

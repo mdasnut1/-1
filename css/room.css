@@ -42,8 +42,8 @@
 
 .halls__link {
     display: inline-block;
-    padding: 135px 0 135px 0;
-    width: 100%;
+    padding: 96px 0 96px 0;
+    max-width: 252px;
 }
 
 

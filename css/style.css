@@ -3,9 +3,11 @@
 @import url('./normalize.css');
 @import url('./global.css');
 @import url('./room.css');
-@import url('./book.css');
+@import url('./booking.css');
 @import url('./about-us.css');
 @import url('./reviews.css');
+@import url('./header.css');
+@import url('./rest.css');
 
 
 
@@ -61,12 +63,16 @@ h1, h2 ,h3 ,figure ,fieldset {
 }
 
 .section:first-child{
-    padding-top: 146px;
+    padding-top: 25px;
 }
 
 .section{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.sectionL:last-child {
+    padding: 0;
 }
 
 .section__title {
