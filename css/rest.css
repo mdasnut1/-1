@@ -4,10 +4,22 @@
 .rest__list {
     display: flex;
     flex-wrap: wrap;
+
+}
+
+
+.rest__item:first-child, .rest__item:nth-child(2), .rest__item:nth-child(3) {
+    margin-bottom: 40px;
 }
 
 .rest__item {
-    display: flex;
+    width: 380px;
+    padding: 166px 40px 0 40px;
+    margin-right: 20px;
+}
+
+.rest__item:nth-child(3) , .rest__item:nth-child(6) {
+    margin-right: 0;
 }
 
 .text__item {
@@ -21,43 +33,31 @@ max-width: 300px;
 
 .rest__item_vr { 
     background-image: url('/img/vr.jpg');
-    width: 380px;
-    height: 228px;
     background-repeat: no-repeat;
 }
 
 .rest__item_audi-sistem {
     background-image: url('/img/audi-sistem.jpg');
-    width: 100%;
-    height: 228px;
     background-repeat: no-repeat;
 }
 
 .rest__item_karaoke{
     background-image: url('/img/karaoke.jpg');
-    width: 100%;
-    height: 228px;
     background-repeat: no-repeat;
 }
 
 .rest__item_board-game {
     background-image: url('/img/board-games.jpg');
-    width: 100%;
-    height: 228px;
     background-repeat: no-repeat;
 }
 
 .rest__item_film {
     background-image: url('/img/film.jpg');
-    width: 100%;
-    height: 228px;
     background-repeat: no-repeat;
 }
 
 .rest__item_palystation{
     background-image: url('/img/palystation.jpg');
-    width: 100%;
-    height: 228px;
     background-repeat: no-repeat;
 }
 
