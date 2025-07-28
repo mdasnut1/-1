@@ -38,6 +38,24 @@ text-align: center;
 color: #000;
 }
 
+.booking__button_room:hover {
+    background-color: #EADEED;
+    border: 3px solid #640AA3;
+}
+
+.booking__button_room:active {
+    background-color: #6C0287;
+    border: 3px solid #ffffff;
+}
+
+.booking__button_room:focus {
+    background-color: #FFFFFF;
+    border: 3px solid #640AA3;
+    outline: none;
+}
+
+
+
 .booking__button_room:last-child  {
     margin: 0;
 }
@@ -90,10 +108,18 @@ padding-left: 39px;
     width: 27px;
 }
 
+.input_item_radio:focus {
+    outline-color: #CD06FF;
+}
+
 .input_item_checkbox {
     width: 25px;
     min-height: 25px;
     position: absolute;
+}
+
+.input_item_checkbox:focus {
+    outline-color: #CD06FF;
 }
 
 
@@ -133,6 +159,12 @@ padding-left: 39px;
     flex-wrap: wrap;
     max-width: 280px;
     margin-right: 50px;
+}
+
+
+.input__data:focus {
+    border: 2px solid #CD06FF;
+    outline: none;
 }
 
 .input__booking_name {
@@ -187,3 +219,16 @@ padding: 16px 50px;
 float: right;
 }
 
+.booking__button:hover {
+    border: 3px solid #6C0287;
+    background-color: #EADEED;
+}
+
+.booking__button:active {
+    background-color: #EADEED;
+}
+
+.booking__button:focus {
+    background-color: #FFFFFF;
+    border: 3px solid #6C0287;
+}

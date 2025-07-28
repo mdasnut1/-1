@@ -66,6 +66,10 @@ fieldset {
     margin: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 iframe {
     border: none;
 }

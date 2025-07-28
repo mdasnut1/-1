@@ -41,3 +41,18 @@ border-radius: 10px;
 padding: 8px 30px 8px 30px;
 display: inline-block;
 }
+
+.header__button:hover {
+    background-color: #6C0287;
+    border: none;
+}
+
+.header__button:active {
+    background-color: #640AA3;
+    border-color: #000000 ;
+}
+
+.header__button:focus {
+    background-color: #6C0287;
+    border: none;
+}

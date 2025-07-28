@@ -48,6 +48,8 @@ color: #cd06ff;
     z-index: 1;
 }
 
+
+
 .banner__button {
 font-weight: 700;
 font-size: 26px;
@@ -60,10 +62,16 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 background: #6c0287;
 }
 
-.banner__button::after {
-    content: "";
-    background: #6c0287;
-    filter: blur(20px);
+.banner__button:hover {
+    background-color: #840AA3;
+}
+
+.banner__button:active {
+    background-color: #640AA3;
+}
+
+.banner__button:focus {
+    background-color: #840AA3;
 }
 
 
@@ -80,7 +88,6 @@ background: #6c0287;
     background-image: url("../img/first-imge.png");
     background-repeat: no-repeat;
     width: 675px;
-    height: 762px;
     position: absolute;
     bottom: 0;
     right: 20px;
